@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      header,
+      footer,
+      article {
+        border: 1px solid black;
+      }
+      header,
+      footer,
+      h2 {
+        text-align: center;
+      }
+      .grid {
+        max-width: 1000px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        margin: 0 auto 20px;
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Titel</h1>
+    </header>
+    <main>
+      <h2>Undertitel</h2>
+      <section class="grid">
+        <article>
+          <img src="https://placeimg.com/640/480/arch" alt="" />
+          <h3>Article 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+            maxime alias quis earum ab voluptate, expedita harum, corrupti
+            dolore iusto officia vero rem quia culpa provident facere. Soluta
+            facilis veritatis fugit? Excepturi debitis qui asperiores earum
+            adipisci at consequuntur, ea maxime quasi? Omnis ea id ipsam aliquam
+            aspernatur harum. Totam.
+          </p>
+        </article>
+        <article>
+          <img src="https://placeimg.com/640/480/arch" alt="" />
+          <h3>Article 2</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+            maxime alias quis earum ab voluptate, expedita harum, corrupti
+            dolore iusto officia vero rem quia culpa provident facere. Soluta
+            facilis veritatis fugit? Excepturi debitis qui asperiores earum
+            adipisci at consequuntur, ea maxime quasi? Omnis ea id ipsam aliquam
+            aspernatur harum. Totam.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>Footer</footer>
+    <script src="script5.js"></script>
+  </body>
+</html>

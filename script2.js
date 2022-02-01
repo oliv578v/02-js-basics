@@ -19,14 +19,6 @@ console.log(img1);
 const img2 = document.querySelector("article:nth-child(2) img");
 console.log(img2);
 
-img1.src = "https://placeimg.com/640/480/arch";
-
-img1.alt = "dette er en alt tekst";
-
-img2.src = "https://placeimg.com/640/480/arch";
-
-img2.alt = "dette er en alt tekst";
-
 h1.textContent = "javatitel";
 
 h2.textContent = "javah2";
@@ -36,5 +28,3 @@ h3.textConent = "javah3";
 p1.textContent = "Java tekst";
 
 p2.textContent = "Java tekst";
-
-

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", start);
-console.log("loaded");
+console.log("DOMContentLoaded");
 
 function start() {
   const h1 = document.querySelector("h1");
